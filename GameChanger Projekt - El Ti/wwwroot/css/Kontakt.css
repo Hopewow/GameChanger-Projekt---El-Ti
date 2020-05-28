@@ -1,12 +1,18 @@
 ﻿
+
 .ContactBackground {
     position: absolute;
     top: 4%;
     width: 100%;
-    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-    background-color: #131313;
-    background-size: 20px 20px;
+    /*This gives stripes with 2px spacing*/
+    background: repeating-linear-gradient( 45deg, #808080, #808080 2px, #a1a1a1 2px, #a1a1a1 4px);
+    /*The background is set as small so as to give the effect of a lot of smaller elements*/
+    background-size: 5px 5px;
+    height: 17%;
+    padding-left: 22%;
+}
 
-    
-   
+
+table {
+    border:hidden;
 }
