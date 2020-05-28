@@ -1,0 +1,57 @@
+﻿/* Sætter position af header samt bredde og længde
+    Lavet: 27:05-2020 
+*/
+.header {
+    width: 100%;
+    height: 3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Style top navigationsbaren. */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.8;
+}
+
+/* Styler topnavigations referance blokke */
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+/* Skift farve når, man holder mus over navigationsknapperne. */
+.topnav a:hover {
+    background-color: #0094ff;
+    color: black;
+}
+
+
+.ContactBackground {
+    margin: 10px;
+    width: 100%;
+    left: 0;
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+
+p {
+    font-size: 2vh;
+}
+
+h3 {
+    font-size: 3vh;
+}
