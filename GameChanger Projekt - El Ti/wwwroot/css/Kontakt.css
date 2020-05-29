@@ -2,14 +2,15 @@
 
 .ContactBackground {
     position: absolute;
-    top: 4%;
+    top: 0;
     width: 100%;
     /*This gives stripes with 2px spacing*/
     background: repeating-linear-gradient( 45deg, #808080, #808080 2px, #a1a1a1 2px, #a1a1a1 4px);
     /*The background is set as small so as to give the effect of a lot of smaller elements*/
     background-size: 5px 5px;
-    height: 17%;
+    height: 20%;
     padding-left: 22%;
+    padding-top: 2%
 }
 
 
