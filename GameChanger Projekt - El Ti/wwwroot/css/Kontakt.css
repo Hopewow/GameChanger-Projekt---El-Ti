@@ -1,11 +1,14 @@
-﻿
+﻿/*This gives stripes with 2px spacing
+        Date: 28-05-2020
+        Updated: 29-05-2020
+        Change: Top, padding top, background and height
+ */
 
 .ContactBackground {
     position: absolute;
     top: 0;
     width: 100%;
-    /*This gives stripes with 2px spacing*/
-    background: repeating-linear-gradient( 45deg, #808080, #808080 2px, #a1a1a1 2px, #a1a1a1 4px);
+    background: repeating-linear-gradient( 45deg, #808080, #808080 1px, #626262 1px, #626262 2px);
     /*The background is set as small so as to give the effect of a lot of smaller elements*/
     background-size: 5px 5px;
     height: 20%;
@@ -13,7 +16,65 @@
     padding-top: 2%
 }
 
+.SocialBox {
+    position:absolute;
+    height: 20%;
+    left: 23%;
+    width: 54.5%;
+    top: 13%;
+    background-color: white;
+    padding: 20px;
+}
+
+.ContactHeader{
+    background-color: black;
+    color:aqua;
+    padding-left: 1%;
+}
 
 table {
     border:hidden;
+    border: 1 px solid #ccc;
+    border-collapse: collapse;
+}
+
+tr{
+    border:hidden;
+}
+
+#message {
+    vertical-align:top;
+    text-align:right;
+}
+
+.resizeable {
+    resize: both;
+}
+
+.AquaButton{
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 16px;
+    border:hidden;
+    font-size: 80%;
+    padding:.8%;
+    width: 8%;
+}
+
+.Footer {
+    background-color: #dbd2d2;
+    color: dimgrey;
+    text-align: center;
+    padding-top: 1.7%;
+    padding-bottom: .1%;
+    font-size: 10px;
+}
+
+textarea{
+    width: 98%;
+    height:150px;
+}
+
+input{
+    width: 50%;
 }
