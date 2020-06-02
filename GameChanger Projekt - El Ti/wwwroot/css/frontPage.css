@@ -1,8 +1,14 @@
 ﻿/*
     Date: 27-05-2020
-    Updated: 29-05-2020
-    Change: 
+    Updated: 02-06-2020
+    Change: Finish the
 */
+
+html{
+    height:100%;
+    margin:auto;
+    overflow:scroll;
+}
 .setPic {
     position: inherit;
     top: 0;
@@ -22,7 +28,47 @@
     color: white;
 }
 
-body {
-    background-color: white;
+.frontHeader {
+    background-color: black;
+    color: aqua;
+    padding-left: 1%;
 }
 
+body {
+    background-color: white;
+    padding-bottom: 58px;
+}
+
+.frontBox{
+    position:absolute;
+    top: 78%;
+    left: 19%;
+    width: 62%;
+    background-color: white;
+    padding-top:10px;
+    padding-left:7px;
+    padding-right:7px;
+}
+
+table {
+    border: hidden;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.placeTextOnThumbs {
+    background-color: black;
+    opacity: 0.8;
+    color: aqua;
+    width:100%;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size:50%;
+}
+
+.trailerHeader {
+    background-color: black;
+    color: aqua;
+    padding-left: 1%;
+    width: 70%;
+}
