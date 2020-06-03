@@ -44,20 +44,37 @@ table {
     border-collapse: collapse;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.Title {
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+
+.UnderTitle {
+    padding-top: 0%;
+    font-size: 99%;
+}
+
+.CreatedSection {
+    padding-top: 0%;
+    font-size: 80%;
+}
+
+.Review {
+    padding-top: 0%;
+    font-size: 80%;
+}
+
+
 #Seperator {
     background-color: #e5e5e5;
-}
-
-#GameTitle {
-    font-size: 150%;
-}
-
-#GameInfo {
-    font-size: 90%;
-}
-
-#GameDescription {
-    font-size: 95%;
 }
 
 #NyeAnmeldelser {
