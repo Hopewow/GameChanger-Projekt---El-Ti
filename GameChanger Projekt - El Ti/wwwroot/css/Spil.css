@@ -15,9 +15,11 @@
     height: 20%;
     left: 23%;
     width: 54.5%;
-    top: 13%;
+    top: 10%;
     background-color: white;
-    padding: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
 }
 
 .SpilHeader {
@@ -27,8 +29,48 @@
     padding-right: 0%;
 }
 
+.Footer {
+    background-color: #dbd2d2;
+    color: dimgrey;
+    text-align: center;
+    padding-top: 1.7%;
+    padding-bottom: .1%;
+    font-size: 10px;
+}
+
 table {
     border: hidden;
     border: 1 px solid #ccc;
     border-collapse: collapse;
+}
+
+#Seperator {
+    background-color: #e5e5e5;
+}
+
+#GameTitle {
+    font-size: 150%;
+}
+
+#GameInfo {
+    font-size: 90%;
+}
+
+#GameDescription {
+    font-size: 95%;
+}
+
+#NyeAnmeldelser {
+    font-size: 150%;
+}
+
+#GameTitleNyeAnd {
+    font-size: 100%;
+    padding-bottom: 0%;
+}
+
+#AndDesc {
+    font-size: 78%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
