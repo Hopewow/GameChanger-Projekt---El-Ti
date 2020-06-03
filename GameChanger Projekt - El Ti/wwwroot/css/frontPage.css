@@ -37,6 +37,7 @@ html {
     background-color: black;
     color: aqua;
     padding-left: 1%;
+    width: 100%
 }
 
 body {
@@ -44,9 +45,10 @@ body {
     padding-bottom: 58px;
 }
 
+/* Box container of information.*/
 .frontBox {
     position: absolute;
-    top: 78%;
+    top: 50%;
     left: 19%;
     width: 62%;
     background-color: white;
@@ -56,6 +58,7 @@ body {
     margin-top: 10%;
 }
 
+/* Table settings to hide borders*/
 table {
     border: hidden;
     border: 1px solid #ccc;
@@ -63,6 +66,7 @@ table {
     border-collapse: collapse;
 }
 
+/* Positioning and color of text on thumb pictures first table in box container. */
 .placeTextOnThumbs {
     background-color: black;
     opacity: 0.8;
@@ -73,12 +77,14 @@ table {
     font-size: 50%;
 }
 
+/* Black header with blue text color*/
 .trailerHeader {
     background-color: black;
     color: aqua;
     text-align: left;
 }
 
+/* Background color and positioning settings for thumbs*/
 #whiteThumb {
     padding-left: 2%;
     padding-right: 0%;
@@ -86,6 +92,7 @@ table {
     background-color: white;
 }
 
+/* Background color and positioning settings for thumbs*/
 #greyThumb {
     padding-left: 2%;
     padding-right: 0%;
@@ -93,11 +100,13 @@ table {
     background-color: #e5e5e5;
 }
 
+/* Text positioníng for thumb pictures*/
 #thumbText {
     padding-left: 0%;
     padding-bottom: 0%;
 }
 
+/*Blue pill button */
 .AquaButton {
     background-color: deepskyblue;
     color: white;
@@ -108,6 +117,22 @@ table {
     width: 20%;
 }
 
+/*Table settings for last table in box container*/
+.BottomTableTDSettings {
+    width: 2%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 1%;
+}
+
+/*Image size and positioning settings for last table in box container*/
+.BottomTableTDImgSettings {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+/*Footer color and positioning settings*/
 .Footer {
     background-color: #dbd2d2;
     color: dimgrey;

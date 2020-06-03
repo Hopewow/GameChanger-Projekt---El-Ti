@@ -4,14 +4,20 @@
 
 
 <head>
+
+    @* Link and import section *@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/frontPage.css" />
     <link rel="stylesheet" href="css/tekstHeader.css" />
 </head>
 
 <body>
+
+    @* Banner Section *@
     <div class="setPic">
         <img src="~/Gamechanger billedmateriale/Slidebanner/banner_assasins_creed_2.jpg" style="width:100%;" />
+
+        @* Text placement on tekst *@
         <div class="placetextonPic">
             <h3>ASSASINS CREED</h3>
             <p>Assassin's Creed er en computerspilserie, der er udgivet af Ubisoft. I spilserien findes der lige nu 11 spil, hvor det seneste udkom d. 5. oktober 2018. </p>
@@ -19,7 +25,8 @@
         </div>
     </div>
 
-    <div class="header; sticky" id="frontHeader">
+    @* Navigation banner *@
+    <div class="header; sticky" id="frontHeader" style="width: 100%">
 
         <div class="topnav" style="text-align: center">
             <a href="http://localhost:55716/">Forside</a>
@@ -28,6 +35,7 @@
         </div>
     </div>
 
+    @* White box container *@
     <div class="frontBox">
         <table class="table" style="border:hidden">
             <thead>
@@ -61,6 +69,8 @@
                 </tr>
             </thead>
         </table>
+
+        @* Table containing Seneste Trailer og Mest populære spil *@
         <table class="table">
             <thead>
                 <tr>
@@ -85,6 +95,10 @@
                     </th>
                 </tr>
                 <tr>
+                    @*
+                        Left column Seneste Trailer section:
+                        Takes a border cut from youtube. In this case a trailer for call of Duty
+                    *@
                     <td style="width:100%;height:150%;padding-left:0%;padding-top:1%;padding-right:0%;border:hidden" colspan="2">
                         <iframe style="width:100%;height:250%" src="https://www.youtube.com/embed/4A05AnPSC6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h4>
@@ -97,7 +111,10 @@
                             Læs mere
                         </button>
                     </td>
+
                     <td></td>
+  
+                    @* Right column containing Mest populære spil. *@
                     <td colspan="2" style="padding-top:0%;padding-left:0%;padding-right:0%">
                         <table style="border:hidden;padding:0%;width:100%">
                             <tr id="whiteThumb">
@@ -114,6 +131,7 @@
                                     </p>
                                 </td>
                             </tr>
+
                             <tr id="greyThumb">
                                 <td style="padding-bottom:0%;padding-left:2%;padding-right:0%">
                                     <a target="_blank" href="~/Gamechanger billedmateriale/thumb_gtav.jpg">
@@ -128,6 +146,7 @@
                                     </p>
                                 </td>
                             </tr>
+
                             <tr id="whiteThumb">
                                 <td id="whiteThumb">
                                     <a target="_blank" href="~/Gamechanger billedmateriale/Thumbs/thumb_call_of_duty.jpg">
@@ -142,6 +161,7 @@
                                     </p>
                                 </td>
                             </tr>
+
                             <tr id="greyThumb">
                                 <td id="greyThumb">
                                     <a target="_blank" href="~/Gamechanger billedmateriale/Thumbs/thumb_forza4.jpg">
@@ -158,6 +178,7 @@
                                     </p>
                                 </td>
                             </tr>
+
                             <tr id="whiteThumb">
                                 <td id="whiteThumb">
                                     <a target="_blank" href="~/Gamechanger billedmateriale/Thumbs/thumb_red_dead_redemption.jpg">
@@ -192,79 +213,92 @@
                 </tr>
             </thead>
         </table>
+
+        @* Table containing |Seneste anmeldelse, Seneste artikel & Bliv medlem | Reminder a coulmn is used as space between columns shown. *@
         <table class="table">
             <thead>
                 <tr>
-                    <td class="trailerHeader" style="width:2%;padding-right:0%;padding-bottom:0%;padding-top:1%">
+                    <td class="trailerHeader; BottomTableTDSettings">
                         <img src="~/Gamechanger billedmateriale/Grafik/icon_titlebar.png" style="width:16px;height:19px" />
                     </td>
-                    <td class="trailerHeader" id="textHeader" style="width:28%;padding-bottom:0%;padding-top:1%">
+                    <td class="trailerHeader; BottomTableTDSettings">
                         <h3>Seneste anmeldelse</h3>
                     </td>
+
                     <td></td>
-                    <td class="trailerHeader" style="width:2%;padding-right:0%;padding-bottom:0%;padding-top:1%">
+
+                    <td class="trailerHeader; BottomTableTDSettings">
                         <img src="~/Gamechanger billedmateriale/Grafik/icon_titlebar.png" style="width:16px;height:19px" />
                     </td>
-                    <td class="trailerHeader" id="textHeader" style="width:28%;padding-bottom:0%;padding-top:1%">
+                    <td class="trailerHeader; BottomTableTDSettings">
                         <h3>Seneste artikel</h3>
                     </td>
+
                     <td id="whiteSpace"></td>
-                    <td class="trailerHeader" style="width:2%;padding-right:0%;padding-bottom:0%;padding-top:1%">
+
+                    <td class="trailerHeader; BottomTableTDSettings">
                         <img src="~/Gamechanger billedmateriale/Grafik/icon_titlebar.png" style="width:16px;height:19px" />
                     </td>
-                    <td class="trailerHeader" id="textHeader" style="width:28%;padding-bottom:0%;padding-top:1%">
+                    <td class="trailerHeader; BottomTableTDSettings">
                         <h3>Bliv medlem</h3>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width:32%;padding-left:0%;padding-right:0%" colspan="2">
-                        <img src="~/Gamechanger billedmateriale/Anmeldelser/red_dead_redemption.jpg.png" style="width:100%;padding-left:0%;padding-right:0%" />
-                        <h5>
-                            <strong>
-                                I en hørm af krudtslam og hestelort
-                            </strong>
-                        </h5>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                        </p>
-                        <button class="AquaButton" style="width:30%">
-                            Læs mere
-                        </button>
-                    </td>
-                    <td></td>
-                    <td style="width:30%;padding-left:0%;padding-right:0%" colspan="2">
-                        <img src="~/Gamechanger billedmateriale/Forside/article_gamer.jpg" style="width:100%;padding-left:0%;padding-right:0%" />
-                        <h5>
-                            <strong>
-                                Sådan bliver du professionel gamer
-                            </strong>
-                        </h5>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-                        <button class="AquaButton" style="width:30%">
-                            Læs mere
-                        </button>
-                    </td>
-                    <td></td>
-                    <td style="width:30%;padding-left:0%;padding-right:0%" colspan="2">
-                        <img src="~/Gamechanger billedmateriale/Forside/article_membership.png" style="width:100%;padding-left:0%;padding-right:0%" />
-                        <h5>
-                            <strong>
-                                Bliv medlem i dag og spar 30%
-                            </strong>
-                        </h5>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                        </p>
-                        <button class="AquaButton" style="width:30%">
-                            Læs mere
-                        </button>
-                    </td>
-                </tr>
+                @* Column 1 *@
+            <tr>
+                <td style="width:32%;padding-left:0%;padding-right:0%" colspan="2">
+                    <img src="~/Gamechanger billedmateriale/Anmeldelser/red_dead_redemption.jpg.png" class="BottomTableTDImgSettings" />
+                    <h5>
+                        <strong>
+                            I en hørm af krudtslam og hestelort
+                        </strong>
+                    </h5>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                    <button class="AquaButton" style="width:30%">
+                        Læs mere
+                    </button>
+                </td>
+
+                <td></td>
+
+                @* Column 3 *@
+                <td style="width:30%;padding-left:0%;padding-right:0%" colspan="2">
+                    <img src="~/Gamechanger billedmateriale/Forside/article_gamer.jpg" class="BottomTableTDImgSettings"  />
+                    <h5>
+                        <strong>
+                            Sådan bliver du professionel gamer
+                        </strong>
+                    </h5>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <button class="AquaButton" style="width:30%">
+                        Læs mere
+                    </button>
+                </td>
+
+                <td></td>
+
+                @* Column 5 *@
+                <td style="width:30%;padding-left:0%;padding-right:0%" colspan="2">
+                    <img src="~/Gamechanger billedmateriale/Forside/article_membership.png" class="BottomTableTDImgSettings"  />
+                    <h5>
+                        <strong>
+                            Bliv medlem i dag og spar 30%
+                        </strong>
+                    </h5>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                    <button class="AquaButton" style="width:30%">
+                        Læs mere
+                    </button>
+                </td>
+            </tr>
             </thead>
         </table>
-
+        @* Kontakt footer at the end of the box container. *@
         <div class="Footer">
             <p>GameChanger website | <u>kontakt@gamechanger.local</u> | <u>www.gamechanger.local</u></p>
         </div>
