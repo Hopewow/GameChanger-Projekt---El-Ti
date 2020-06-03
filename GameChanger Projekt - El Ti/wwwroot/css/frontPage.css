@@ -16,6 +16,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .placetextonPic {
@@ -52,6 +53,7 @@ body {
     padding-top: 10px;
     padding-left: 7px;
     padding-right: 7px;
+    margin-top: 10%;
 }
 
 table {
