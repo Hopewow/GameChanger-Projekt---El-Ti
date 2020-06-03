@@ -1,16 +1,19 @@
 ﻿/*
     Date: 27-05-2020
     Updated: 02-06-2020
-    Change: Finish the
+    Change: Finish the headings
+    Updated: 03-06-2020
+    Change: Added trailer and thumbnails
 */
 
-html{
-    height:100%;
-    margin:auto;
-    overflow:scroll;
+html {
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
 }
+
 .setPic {
-    position: inherit;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -39,15 +42,15 @@ body {
     padding-bottom: 58px;
 }
 
-.frontBox{
-    position:absolute;
+.frontBox {
+    position: absolute;
     top: 78%;
     left: 19%;
     width: 62%;
     background-color: white;
-    padding-top:10px;
-    padding-left:7px;
-    padding-right:7px;
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 table {
@@ -60,14 +63,32 @@ table {
     background-color: black;
     opacity: 0.8;
     color: aqua;
-    width:100%;
+    width: 100%;
     text-align: center;
     padding-bottom: 0px;
-    font-size:50%;
+    font-size: 50%;
 }
 
 .trailerHeader {
     background-color: black;
     color: aqua;
-    text-align:left;
+    text-align: left;
+}
+
+#whiteThumb {
+    padding-left: 2%;
+    padding-right: 0%;
+    padding-bottom: 0%
+}
+
+#greyThumb {
+    padding-left: 2%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    background-color: #e5e5e5
+}
+
+#thumbText {
+    padding-left: 0%;
+    padding-bottom: 0%;
 }
