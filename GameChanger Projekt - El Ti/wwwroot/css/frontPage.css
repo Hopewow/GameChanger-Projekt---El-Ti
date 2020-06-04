@@ -30,7 +30,6 @@ html {
     background-color: black;
     opacity: 0.8;
     color: white;
-    vertical-align: bottom;
 }
 
 .frontHeader {
@@ -74,7 +73,7 @@ table {
     width: 100%;
     text-align: center;
     padding-bottom: 0px;
-    font-size: 50%;
+    font-size: 100%;
 }
 
 /* Black header with blue text color*/
