@@ -58,6 +58,11 @@ h3 {
     font-size: 2vw;
 }
 
+#active {
+    background-color: #0094ff;
+    color: black;
+}
+
 /*Font setting*/
 /* cyrillic-ext */
 @font-face {
