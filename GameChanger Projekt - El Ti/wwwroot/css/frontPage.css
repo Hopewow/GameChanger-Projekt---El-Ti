@@ -117,21 +117,6 @@ table {
     width: 20%;
 }
 
-/*Table settings for last table in box container*/
-.BottomTableTDSettings {
-    width: 2%;
-    padding-right: 0%;
-    padding-bottom: 0%;
-    padding-top: 1%;
-}
-
-/*Image size and positioning settings for last table in box container*/
-.BottomTableTDImgSettings {
-    width: 100%;
-    padding-left: 0%;
-    padding-right: 0%;
-}
-
 /*Footer color and positioning settings*/
 .Footer {
     background-color: #dbd2d2;
