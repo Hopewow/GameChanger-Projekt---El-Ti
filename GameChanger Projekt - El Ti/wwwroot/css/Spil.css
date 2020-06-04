@@ -44,14 +44,6 @@ table {
     border-collapse: collapse;
 }
 
-a {
-    color: black;
-}
-
-a:hover {
-    color: black;
-}
-
 #Seperator {
     background-color: #e5e5e5;
 }

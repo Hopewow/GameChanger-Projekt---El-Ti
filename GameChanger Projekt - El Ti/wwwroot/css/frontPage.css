@@ -81,7 +81,6 @@ table {
 .trailerHeader {
     background-color: black;
     color: aqua;
-    text-align: left;
 }
 
 /* Background color and positioning settings for thumbs*/
@@ -114,7 +113,8 @@ table {
     border: hidden;
     font-size: 70%;
     padding: 1.4%;
-    width: 20%;
+    width:25%; 
+    height: 20%;
 }
 
 /*Footer color and positioning settings*/
