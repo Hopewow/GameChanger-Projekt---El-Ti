@@ -14,15 +14,17 @@
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 100%
 }
 
 /* Style top navigationsbaren. */
 .topnav {
     background-color: black;
     opacity: 0.8;
+    top: 0;
+    left: 0;
 }
 
 /* Styler topnavigations referance blokke */
